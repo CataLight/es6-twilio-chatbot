@@ -18,7 +18,7 @@ const GameState = Object.freeze({
     TEST16: Symbol("TEST16"),
     TEST17: Symbol("TEST17"),
     TEST18: Symbol("TEST18"),
-    TEST19: Symbol("TEST19"),
+    TEST19: Symbol("TEST19")
     });
 
 export default class Game{
@@ -171,6 +171,7 @@ export default class Game{
                 sReply="try again";
             }
             break;
+
             case GameState.TEST16:
             if(sInput.toLowerCase().match("-7")){
                 sReply="grat! whats the subtraction of 105 and 5?";
@@ -179,6 +180,7 @@ export default class Game{
                 sReply="try again";
             }
             break;
+
             case GameState.TEST17:
             if(sInput.toLowerCase().match("100")){
                 sReply="grat! whats the multiplication of 5 and 12?";
