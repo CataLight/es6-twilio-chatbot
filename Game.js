@@ -37,8 +37,8 @@ export default class Game{
             break;
 
             case GameState.TEST1:
-                if(sInput.toLowerCase().match("play")){
-                    sReply="grat! whats the square root of 47?";
+                if(sInput.toLowerCase().match("yes")){
+                    sReply="great! whats the square root of 49?";
                     this.stateCur = GameState.TEST2;
                 }else{
                     sReply="try again";
@@ -47,7 +47,7 @@ export default class Game{
 
             case GameState.TEST2:
             if(sInput.toLowerCase().match("7")){
-                sReply="grat! whats the square root of 64?";
+                sReply="great! whats the square root of 64?";
                 this.stateCur = GameState.TEST3;
             }else{
                 sReply="try again";
@@ -57,7 +57,7 @@ export default class Game{
 
            case GameState.TEST3:
            if(sInput.toLowerCase().match("8")){
-               sReply="grat! whats the square root of 144?";
+               sReply="great! whats the square root of 144?";
                this.stateCur = GameState.TEST4;
            }else{
                sReply="try again";
@@ -66,7 +66,7 @@ export default class Game{
 
            case GameState.TEST4:
            if(sInput.toLowerCase().match("12")){
-               sReply="grat! whats the multiplication of 17 and 15?";
+               sReply="great! whats the multiplication of 17 and 15?";
                this.stateCur = GameState.TEST5;
            }else{
                sReply="try again";
@@ -75,7 +75,7 @@ export default class Game{
 
             case GameState.TEST5:
             if(sInput.toLowerCase().match("255")){
-                sReply="grat! whats the addition of 17 and 15?";
+                sReply="great! whats the addition of 17 and 15?";
                 this.stateCur = GameState.TEST6;
             }else{
                 sReply="try again";
@@ -84,7 +84,7 @@ export default class Game{
 
             case GameState.TEST6:
             if(sInput.toLowerCase().match("32")){
-                sReply="grat! whats the subtraction of 17 and 15?";
+                sReply="great! whats the subtraction of 17 and 15?";
                 this.stateCur = GameState.TEST7;
             }else{
                 sReply="try again";
@@ -93,7 +93,7 @@ export default class Game{
 
             case GameState.TEST7:
             if(sInput.toLowerCase().match("2")){
-                sReply="grat! whats the subtraction of 17 and 15?";
+                sReply="great! whats the subtraction of 145 and 15?";
                 this.stateCur = GameState.TEST8;
             }else{
                 sReply="try again";
@@ -101,8 +101,8 @@ export default class Game{
             break;
             
             case GameState.TEST8:
-            if(sInput.toLowerCase().match("2")){
-                sReply="grat! whats the subtraction of 582 and 231?";
+            if(sInput.toLowerCase().match("130")){
+                sReply="great! whats the subtraction of 582 and 231?";
                 this.stateCur = GameState.TEST9;
             }else{
                 sReply="try again";
@@ -120,7 +120,7 @@ export default class Game{
 
             case GameState.TEST10:
             if(sInput.toLowerCase().match("115")){
-                sReply="grat! whats the subtraction of 1710 and 1536?";
+                sReply="great! whats the subtraction of 1710 and 1536?";
                 this.stateCur = GameState.TEST11;
             }else{
                 sReply="try again";
@@ -129,7 +129,7 @@ export default class Game{
 
             case GameState.TEST11:
             if(sInput.toLowerCase().match("174")){
-                sReply="grat! whats the addition of 127 and 105?";
+                sReply="great! whats the addition of 127 and 105?";
                 this.stateCur = GameState.TEST12;
             }else{
                 sReply="try again";
@@ -138,7 +138,7 @@ export default class Game{
 
             case GameState.TEST12:
             if(sInput.toLowerCase().match("232")){
-                sReply="grat! whats the addition of 117 and 125?";
+                sReply="great! whats the addition of 117 and 125?";
                 this.stateCur = GameState.TEST13;
             }else{
                 sReply="try again";
@@ -147,7 +147,7 @@ export default class Game{
 
             case GameState.TEST13:
             if(sInput.toLowerCase().match("242")){
-                sReply="grat! whats the addition of 5 and 12?";
+                sReply="great! whats the addition of 5 and 12?";
                 this.stateCur = GameState.TEST14;
             }else{
                 sReply="try again";
@@ -157,7 +157,7 @@ export default class Game{
 
             case GameState.TEST14:
             if(sInput.toLowerCase().match("17")){
-                sReply="grat! whats the addition of 15 and 2?";
+                sReply="great! whats the addition of 15 and 2?";
                 this.stateCur = GameState.TEST15;
             }else{
                 sReply="try again";
@@ -165,7 +165,7 @@ export default class Game{
             break;
             case GameState.TEST15:
             if(sInput.toLowerCase().match("17")){
-                sReply="grat! whats the subtraction of 5 and 12?";
+                sReply="great! whats the subtraction of 5 and 12?";
                 this.stateCur = GameState.TEST16;
             }else{
                 sReply="try again";
@@ -174,7 +174,7 @@ export default class Game{
 
             case GameState.TEST16:
             if(sInput.toLowerCase().match("-7")){
-                sReply="grat! whats the subtraction of 105 and 5?";
+                sReply="great! whats the subtraction of 105 and 5?";
                 this.stateCur = GameState.TEST17;
             }else{
                 sReply="try again";
@@ -183,7 +183,7 @@ export default class Game{
 
             case GameState.TEST17:
             if(sInput.toLowerCase().match("100")){
-                sReply="grat! whats the multiplication of 5 and 12?";
+                sReply="great! whats the multiplication of 5 and 12?";
                 this.stateCur = GameState.TEST18;
             }else{
                 sReply="try again";
@@ -192,7 +192,7 @@ export default class Game{
 
             case GameState.TEST18:
             if(sInput.toLowerCase().match("60")){
-                sReply="grat! whats the multiplication of 50 by 10?";
+                sReply="great! whats the multiplication of 50 by 10?";
                 this.stateCur = GameState.TEST19;
             }else{
                 sReply="try again";
@@ -201,7 +201,7 @@ export default class Game{
 
             case GameState.TEST19:
             if(sInput.toLowerCase().match("500")){
-                sReply="grat You finished the game YaY!!";
+                sReply="great You finished the game YaY!!";
             }else{
                 sReply="try again";
             }
