@@ -18,7 +18,7 @@ const GameState = Object.freeze({
     TEST16: Symbol("TEST16"),
     TEST17: Symbol("TEST17"),
     TEST18: Symbol("TEST18"),
-    TEST19: Symbol("TEST19")
+    TEST19: Symbol("TEST19"),
     });
 
 export default class Game{
